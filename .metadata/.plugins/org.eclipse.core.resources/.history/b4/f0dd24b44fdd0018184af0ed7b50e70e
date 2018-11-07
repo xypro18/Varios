@@ -1,0 +1,5 @@
+package pt.web.loja.rest;
+
+public class JARESTConfiguration {
+
+}

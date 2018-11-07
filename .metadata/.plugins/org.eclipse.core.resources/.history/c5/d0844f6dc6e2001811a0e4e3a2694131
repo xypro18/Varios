@@ -1,0 +1,12 @@
+package pt.loja.model.ejb;
+
+import javax.ejb.Remote;
+
+import pt.loja.model.Produto;
+
+@Remote
+public interface LojaRemote {
+	
+	Produto obtemProduto(int id);
+	
+}

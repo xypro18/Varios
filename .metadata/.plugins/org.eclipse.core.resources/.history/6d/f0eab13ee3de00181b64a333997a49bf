@@ -1,0 +1,24 @@
+package pt.curso.jpa;
+
+import java.lang.reflect.Field;
+
+public class PersistanceContext {
+	
+	public static void main(String...x) throws IllegalArgumentException, IllegalAccessException {
+		
+		Produto p = new Produto();
+		p.setId(10);
+		p.setNome("carica");
+		p.setPreco(123.45);
+		
+		System.out.println(p.getClass());
+		System.out.println(p.getClass().getDeclaredFields().length);
+		Field[] atributos = p.getClass().getDeclaredFields();
+		for(Field f:atributos) {
+			f.setAccessible(true);
+			System.out.println(f.getName());
+			System.out.println(f.get(p));
+		}		
+	}
+
+}

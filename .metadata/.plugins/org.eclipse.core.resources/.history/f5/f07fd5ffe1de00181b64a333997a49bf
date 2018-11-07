@@ -1,0 +1,11 @@
+package pt.curso.jpa;
+
+public class PersistanceContext {
+	
+	public static void main(String...x) {
+		
+		
+		
+	}
+
+}

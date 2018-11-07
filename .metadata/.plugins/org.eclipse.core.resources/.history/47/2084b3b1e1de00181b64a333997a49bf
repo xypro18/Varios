@@ -1,0 +1,5 @@
+package pt.curso.jpa;
+
+public class PersistanceContext {
+
+}

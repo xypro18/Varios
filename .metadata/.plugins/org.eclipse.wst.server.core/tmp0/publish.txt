@@ -1,0 +1,3 @@
+#GlassFish 3
+#Wed Nov 07 21:16:59 GMT 2018
+org.eclipse.jst.jee.server\:lojaEAR=C\:\\Users\\Java\\Documents\\glassfish4\\glassfish\\domains\\domain1\\eclipseApps\\lojaEAR

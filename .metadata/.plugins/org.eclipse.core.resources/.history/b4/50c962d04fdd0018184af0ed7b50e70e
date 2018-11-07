@@ -1,0 +1,7 @@
+package pt.web.loja.rest;
+
+import javax.ws.rs.core.Application;
+
+public class JARESTConfiguration extends Application {
+
+}

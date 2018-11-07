@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Calculator/src/pt/rumos/calculator/Calculator.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="pt.rumos.calculator.Calculator"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="&quot;((22.2+35)*65.58/25)&quot;"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Calculator"/>
+</launchConfiguration>

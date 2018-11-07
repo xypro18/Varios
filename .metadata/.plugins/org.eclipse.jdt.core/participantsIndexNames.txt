@@ -1,0 +1,3 @@
+INDEX VERSION 1.130
+C:\java\wrkspEclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3583923976.index
+\LojaWeb\src
