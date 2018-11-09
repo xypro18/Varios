@@ -17,13 +17,9 @@
 		</list>
 	</section>
 	<section name="NewWizardAction">
-		<item value="org.eclipse.glassfish.tools.v3.wizards.AddGenericResourceWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<item value="org.eclipse.jst.ejb.ui.internal.wizard.AddMessageDrivenBeanWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.glassfish.tools"/>
-			<item value="Oracle"/>
-			<item value="org.eclipse.jst.ws.ui.new"/>
-			<item value="org.eclipse.ui.Examples"/>
-			<item value="org.eclipse.ui.Examples/oracle.eclipse.tools.cloud.apaas.examples.new"/>
+			<item value="org.eclipse.jst.ejb.ui"/>
 		</list>
 	</section>
 	<section name="InstallationDialogSettings">

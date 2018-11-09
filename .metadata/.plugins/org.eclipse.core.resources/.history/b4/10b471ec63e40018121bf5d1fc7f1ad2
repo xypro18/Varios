@@ -1,0 +1,34 @@
+package pt.loja.ejbs;
+
+import javax.ejb.ActivationConfigProperty;
+import javax.ejb.MessageDriven;
+import javax.jms.Message;
+import javax.jms.MessageListener;
+
+/**
+ * Message-Driven Bean implementation class for: ProdutosQueueMDB
+ */
+@MessageDriven(
+		activationConfig = { @ActivationConfigProperty(
+				propertyName = "destination", propertyValue = "jms/produtosqueue"), @ActivationConfigProperty(
+				propertyName = "destinationType", propertyValue = "javax.jms.Queue")
+		}, 
+		mappedName = "jms/produtosqueue")
+public class ProdutosQueueMDB implements MessageListener {
+
+    /**
+     * Default constructor. 
+     */
+    public ProdutosQueueMDB() {
+        // TODO Auto-generated constructor stub
+    }
+	
+	/**
+     * @see MessageListener#onMessage(Message)
+     */
+    public void onMessage(Message message) {
+        // TODO Auto-generated method stub
+        
+    }
+
+}

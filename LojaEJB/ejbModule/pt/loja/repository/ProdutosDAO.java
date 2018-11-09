@@ -38,5 +38,10 @@ public class ProdutosDAO {
     	return (Produto)gestorEntidades.createNativeQuery("SELECT * FROM PRODUTOS P").getResultList().get(0);
     }
     
+    public void insereProduto(Produto p) {
+    	gestorEntidades.persist(p);
+
+    }
+    
 
 }
